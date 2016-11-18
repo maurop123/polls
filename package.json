@@ -1,0 +1,37 @@
+{
+  "name": "bdm-tracker",
+  "version": "1.0.0",
+  "description": "best damn me tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -p browserify-hmr -t [babelify ext .js] src/index.js -o public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurop123/bdm-tracker-vue.git"
+  },
+  "keywords": [
+    "best",
+    "damn",
+    "me",
+    "tracker",
+    "self",
+    "improvement"
+  ],
+  "author": "maurop123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurop123/bdm-tracker-vue/issues"
+  },
+  "homepage": "https://github.com/maurop123/bdm-tracker-vue#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-plugin-transform-html-import-to-string": "0.0.1",
+    "babel-preset-es2015": "^6.13.2",
+    "babelify": "^7.3.0",
+    "browserify-hmr": "^0.3.5",
+    "watchify": "^3.7.0"
+  }
+}
