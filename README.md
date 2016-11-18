@@ -35,5 +35,6 @@ name of the game is "Keep It Simple"
 
 #### todo
 
-- dockerize. keep this simple too
+- make a todo app or something
 - tests!
+- dockerize. keep this simple too
