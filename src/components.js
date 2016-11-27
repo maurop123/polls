@@ -1,7 +1,7 @@
-import foobar from './foobar'
+import editor from './editor'
 
 [
-  foobar
+  editor
 ]
 .map(component => {
   Vue.component(component.name, component)

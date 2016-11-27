@@ -1,30 +1,30 @@
 {
-  "name": "bdm-tracker",
+  "name": "simple-vue-starter",
   "version": "1.0.0",
-  "description": "best damn me tracker",
+  "description": "vue start app framework for blogs and portfolios",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "watchify -p browserify-hmr -t [babelify ext .js] src/index.js -o public/bundle.js"
+    "watch": "watchify -p browserify-hmr -t [babelify ext .js .html] src/index.js -o public/bundle.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maurop123/bdm-tracker-vue.git"
+    "url": "git+https://github.com/maurop123/maurop123-portfolio.git"
   },
   "keywords": [
-    "best",
-    "damn",
-    "me",
-    "tracker",
-    "self",
-    "improvement"
+    "vue",
+    "app",
+    "framework",
+    "bootstrap",
+    "blog",
+    "portfolio"
   ],
   "author": "maurop123",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maurop123/bdm-tracker-vue/issues"
+    "url": "https://github.com/maurop123/maurop123-portfolio/issues"
   },
-  "homepage": "https://github.com/maurop123/bdm-tracker-vue#readme",
+  "homepage": "https://github.com/maurop123/maurop123-portfolio#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.13.2",

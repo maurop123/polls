@@ -1,4 +1,6 @@
 node_modules/
+bower_components/
+public/assets/
 *.swp
 tmp/
 *bundle.*
