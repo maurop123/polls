@@ -1,9 +1,9 @@
-export { editor } from './editor'
-import placekitten from './placekitten'
+// export { editor } from './editor'
+import editor from './editor'
 
 
 [
-  placekitten
+  editor
 ]
 .map(component => {
   Vue.component(component.name, component)
