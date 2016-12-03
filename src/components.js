@@ -1,6 +1,4 @@
-// export { editor } from './editor'
 import editor from './editor'
-
 
 [
   editor

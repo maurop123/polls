@@ -1,0 +1,6 @@
+<div class="row">
+  <h1>{{active.title}}</h1>
+  <button v-for="choice in choices" v-on:click="vote" v-bind:data-choice="choice">
+    {{choice}}
+  </button>
+</div>
